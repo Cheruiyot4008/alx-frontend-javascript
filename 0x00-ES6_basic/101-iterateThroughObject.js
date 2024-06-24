@@ -1,11 +1,10 @@
 export default function iterateThroughObject(reportWithIterator) {
-{
-  allEmployees: {
-     engineering: [
-          'John Doe',
-          'Guillaume Salva',
-     ],
-  },
-  ...
-};
- }
+  const employees = [];
+
+  // eslint-disable-next-line no-restricted-syntax
+  for (const employee of reportWithIterator) {
+    employees.push(employee);
+  }
+
+  return employees.join(' | ');
+}
