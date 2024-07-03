@@ -1,13 +1,13 @@
 // create two students
 var student1 = {
-    firstName: 'Terry',
-    lastName: 'Sophia',
+    firstName: 'Brian',
+    lastName: 'Cheruiyot',
     age: 20,
     location: 'New York'
 };
 var student2 = {
-    firstName: 'Bella',
-    lastName: 'TheCat',
+    firstName: 'Faith',
+    lastName: 'Munai',
     age: 22,
     location: 'Los Angeles'
 };
